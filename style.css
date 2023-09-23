@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+
+:root {
+    --font-family: 'Josefin Sans', sans-serif;
+    --bg-color:#1A120B;
+    --primary-color:#E5E5CB;
+    --secondary-color: #D5CEA3;
+    --tertiary-color: #3C2A21;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 6em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.8em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 6px groove var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 20px 10px 2px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.btn-jogar{
+    padding: 10px 25px;
+    border: 2px outset var(--tertiary-color);
+    background: var(--primary-color);
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: var(--bg-color);
+    font-weight: bold;
+    font-family: var(--font-family);
+    cursor: pointer;
+    box-shadow: 4px 5px var(--tertiary-color);
+}
+
+.btn-jogar:hover {
+    border: 2.3px outset;
+    background: var(--secondary-color);
+    transition: 150ms;
+}
